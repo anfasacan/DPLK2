@@ -1,5 +1,5 @@
 ﻿Dim dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult @@ script infofile_;_ZIP::ssf7.xml_;_
-Dim dt_Username
+Dim dt_Username,preperation
 
 REM -------------- Call Function
 Call spLoadLibrary()
@@ -7,8 +7,12 @@ Call spInitiateData("DPLKLib_Report.xlsx", "DPLKKLM001-001 - Setup Status Proses
 Call spGetDatatable()
 Call fnRunningIterator()
 Call spReportInitiate()
-Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, Array("Login Sebagai : " & dt_Username))
+preperation = Split(DataTable.Value("PREPERATION",dtlocalsheet),",")
+Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, preperation)
+
 Iteration = Environment.Value("ActionIteration")
+'Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, Array("Username : " & dt_Username,"Password : " ))
+
 REM ------- DPLK
 Call DA_Login()
 Call AC_Change_Role()
@@ -55,7 +59,7 @@ Sub spLoadLibrary()
 	Call RepositoriesCollection.Add(LibRepo & "RP_Dashboard.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Sidebar.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Log.tsr")
-	Call RepositoriesCollection.Add(LibRepo & "RP_Setup.tsr")
+	Call RepositoriesCollection.Add(LibRepo & "RP_Klaim_Setup.tsr")
 	
 End Sub
 

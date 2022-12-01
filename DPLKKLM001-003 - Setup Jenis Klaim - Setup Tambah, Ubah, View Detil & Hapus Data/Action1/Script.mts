@@ -1,6 +1,5 @@
-﻿
-Dim dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult @@ script infofile_;_ZIP::ssf7.xml_;_
-Dim dt_Username
+﻿Dim dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult @@ script infofile_;_ZIP::ssf7.xml_;_
+Dim dt_Username,preperation
 
 REM -------------- Call Function
 Call spLoadLibrary()
@@ -8,7 +7,8 @@ Call spInitiateData("DPLKLib_Report.xlsx", "DPLKKLM001-003 - Setup Jenis Klaim -
 Call spGetDatatable()
 Call fnRunningIterator()
 Call spReportInitiate()
-Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, Array("Login Sebagai : " & dt_Username))
+preperation = Split(DataTable.Value("PREPERATION",dtlocalsheet),",")
+Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, preperation)
 Iteration = Environment.Value("ActionIteration")
 REM ------- DPLK
 Call DA_Login()
@@ -17,15 +17,12 @@ Call AC_GoTo_Menu()
 
 If Iteration = 1 Then
 	Call Tambah_Setup_Jenis_Klaim()
-	Call Check_Log_Website("create")
-ElseIf Iteration = 3 Then	
+ElseIf Iteration = 2 Then	
 	Call Ubah_Setup_Jenis_Klaim()
-	Call Check_Log_Website("update")
-ElseIf Iteration = 2 Then
+ElseIf Iteration = 3 Then
 	Call Lihat_Setup_Jenis_Klaim()
 ElseIf Iteration = 4 Then
 	Call Hapus_Setup_Jenis_Klaim()
-	Call Check_Log_Website("delete")
 End If
 
 Call DA_Logout("0")
@@ -59,7 +56,7 @@ Sub spLoadLibrary()
 	Call RepositoriesCollection.Add(LibRepo & "RP_Dashboard.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Sidebar.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Log.tsr")
-	Call RepositoriesCollection.Add(LibRepo & "RP_Setup.tsr")
+	Call RepositoriesCollection.Add(LibRepo & "RP_Klaim_Setup.tsr")
 	
 End Sub
 
