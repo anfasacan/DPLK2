@@ -1,0 +1,48 @@
+﻿REM ==== Login To Download
+Sub Login_Download()
+	Set objkey = CreateObject("WScript.Shell")
+	If not Browser("DPLK").TextObject("http://192.168.132.153").Exist(5) Then
+		objkey.SendKeys "^({TAB})"
+	End If
+	
+	If Browser("DPLK").TextObject("http://192.168.132.153").Exist(10) Then
+		Browser("DPLK").TextObject("http://192.168.132.153").Click
+		objkey.SendKeys("DPLKCORERPTDEV\user_rpt")
+		wait 1
+		objkey.SendKeys "{TAB}"
+		wait 1
+		objkey.SendKeys("dplkbni1234/")
+	End If
+End Sub
+
+REM ==== Laporan Pindah Buku 
+Sub Cetak_Laporan_Pindah_Buku
+	Set objkey = CreateObject("WScript.Shell")
+	If DataTable.Value("USER",dtlocalsheet) <> "" Then
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebElement("Dropdown User").Click
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebEdit("Field Search Dropdown").Set DataTable.Value("USER",dtlocalsheet)
+		objkey.SendKeys "{ENTER}"
+	End If
+	
+	If DataTable.Value("JENIS_KLAIM",dtlocalsheet) <> "" Then
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebElement("Dropdown Jenis Klaim").Click
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebEdit("Field Search Dropdown").Set DataTable.Value("JENIS_KLAIM",dtlocalsheet)
+		objkey.SendKeys "{ENTER}"
+	End If
+	
+	If DataTable.Value("FORMAT_LAPORAN",dtlocalsheet) <> "" Then
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebElement("Dropdown Format Laporan").Click
+		Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebEdit("Field Search Dropdown").Set DataTable.Value("FORMAT_LAPORAN",dtlocalsheet)
+		objkey.SendKeys "{ENTER}"
+	End If
+	
+	Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebEdit("Field Nama Peserta").Set DataTable.Value("NAMA_PESERTA",dtlocalsheet)
+	Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebEdit("Field No Rek DPLK").Set DataTable.Value("NO_REK_DPLK",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Dokumen Jenis Klaim"),"Isi Field Yang Diperlukan Dan Tekan Cetak ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Dokumen Jenis Klaim").WebButton("Btn Cetak").Click
+	Call Login_Download()
+	wait 20
+End Sub
+
