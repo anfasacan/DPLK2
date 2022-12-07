@@ -187,21 +187,27 @@ Function DA_LoginDetail()
 	End If
 End Function
 
-REM -------- Open Lasted Download File
-Sub OpenLastDownloadFile(ScreenResolution)
+Sub Click_Coordinate(xPercent,yPercent)
 	Set devices = CreateObject("Mercury.DeviceReplay")
-	Select Case ScreenResolution
-		Case "1366x768"
-		x = 45
-		y = 716
-		devices.MouseMove x , y
-		devices.MouseClick x , y , LEFT_MOUSE_BUTTON
-	End Select
+	xTotal = Window("SS_Full_Screen").GetROProperty("width")
+	yTotal = Window("SS_Full_Screen").GetROProperty("height")
 	
-	wait 10
+	x = round(xPercent/100 * xTotal)
+	y = round(yPercent/100 * yTotal)
+	
+	devices.MouseMove x , y
+	devices.MouseClick x , y , LEFT_MOUSE_BUTTON
+End Sub
+
+REM -------- Open Lasted Download File
+Sub OpenLastDownloadFile()
+	Set objkey = CreateObject("WScript.Shell")
+	Call Click_Coordinate(4,94.2)
+	wait 20
 	Call CaptureImageUFTV2(Window("SS_Full_Screen"),"Berikut File Yang Di Unduh ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
 	wait 2
-	
+	Call Click_Coordinate(50,50)
+	objkey.SendKeys ("%{F4}")
 End Sub
 
 REM -------- Open Last Download File Without Closing The Browser
@@ -249,7 +255,7 @@ Function DA_Logout(ByVal isError)
 
 		If Browser("DPLK").Page("Login").WebElement("Login").Exist(30) Then
 			Call CaptureImageUFTV2(Browser("DPLK").Page("Login"),"Berhasil Logout", " ", compatibilityMode.Desktop, ReportStatus.Passed)
-			Call CloseBrowser()
+'			Call CloseBrowser()
 			Call spReportSave()
 	
 		If isError = "1" Then
@@ -289,16 +295,19 @@ End Sub
 
 Sub AC_GoTo_Menu
 	Dim Main_Menu,Sub_Menu,Sub_Sub_Menu
+	Role = ucase(DataTable.Value("MAIN_SIDEBAR",dtlocalsheet))
 	Main_Menu = DataTable.Value("SIDEBAR_MENU",dtlocalsheet)
 	Sub_Menu = DataTable.Value("SIDEBAR_SUBMENU",dtlocalsheet)
 	Sub_Sub_Menu = DataTable.Value("SIDEBAR_SUBMENU_SUBMENU",dtlocalsheet)
-	Browser("DPLK").Page("Sidebar").Link("Main Menu").SetTOProperty "text", Main_Menu
-	Browser("DPLK").Page("Sidebar").Link("Main Menu").Click
 	
+	
+	Browser("DPLK").Page("Sidebar").Link("Menu " & Role).SetTOProperty "text", Main_Menu
+	Browser("DPLK").Page("Sidebar").Link("Menu " & Role, "index:=0").Click
+
+
 	If Sub_Menu <> "" Then
 		Browser("DPLK").Page("Sidebar").Link("Sub Menu").SetTOProperty "text", Sub_Menu
 		Browser("DPLK").Page("Sidebar").Link("Sub Menu").Click
-		
 		If Sub_Sub_Menu <> "" Then
 			
 		End If

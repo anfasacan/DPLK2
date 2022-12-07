@@ -4,6 +4,7 @@ Dim dt_Username,preperation
 REM -------------- Call Function
 Call spLoadLibrary()
 Call spInitiateData("DPLKLib_Report.xlsx", "DPLKKLM002-067 - Klaim - Laporan - Laporan Rekap Harian Pindah Buku (PINBUK) Ke Rekening BNI berdasarkan NPP Penghitung.xlsx", "DPLKKLM002")
+Call spInitiateData("DPLKLib_Report.xlsx", "DPLKKLM002-067 - Klaim - Laporan - Laporan Rekap Harian Pindah Buku (PINBUK) Ke Rekening BNI berdasarkan NPP Penghitung.xlsx", "DPLKKLM003")
 Call spGetDatatable()
 Call fnRunningIterator()
 Call spReportInitiate()
@@ -11,14 +12,17 @@ preperation = Split(DataTable.Value("PREPERATION",dtlocalsheet),",")
 Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedResult, preperation)
 Iteration = Environment.Value("ActionIteration")
 REM ------- DPLK
+ 
+
 Call DA_Login()
 Call AC_Change_Role()
 Call AC_GoTo_Menu()
 
-Call Cetak_Laporan_Pindah_Buku
-Call OpenLastDownloadFile("1366x768")
-
+Call Cetak_Laporan_Pindah_Buku()
 Call DA_Logout("0")
+
+Call OpenLastDownloadFile()
+
 
 Call spReportSave()
 	
@@ -49,6 +53,7 @@ Sub spLoadLibrary()
 	Call RepositoriesCollection.Add(LibRepo & "RP_Dashboard.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Sidebar.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Log.tsr")
+	Call RepositoriesCollection.Add(LibRepo & "RP_Function.tsr")
 	Call RepositoriesCollection.Add(LibRepo & "RP_Klaim_Laporan.tsr")
 	
 End Sub

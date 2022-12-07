@@ -8,10 +8,10 @@
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:53:24</StartTime>
+    <StartTime>2022-12-05 17:39:25</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -21,10 +21,10 @@
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:53:24</StartTime>
+    <StartTime>2022-12-05 17:39:25</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -34,10 +34,10 @@
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:53:24</StartTime>
+    <StartTime>2022-12-05 17:39:25</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -47,10 +47,10 @@
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:53:24</StartTime>
+    <StartTime>2022-12-05 17:39:25</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -60,10 +60,10 @@
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:53:24</StartTime>
+    <StartTime>2022-12-05 17:39:25</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -72,10 +72,10 @@
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "chrome",3</Name>
-    <StartTime>2022-12-01 13:53:29</StartTime>
+    <StartTime>2022-12-05 17:39:32</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>dfb3190b0d0e41bbbbbdc9bf6079ee70</IconKey>
+      <IconKey>cd66f7d05002477a9ba004438bf56279</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -87,7 +87,7 @@
 <Data>
     <Name>Field Username.Set</Name>
     <Description>"Putri"</Description>
-    <StartTime>2022-12-01 13:53:48</StartTime>
+    <StartTime>2022-12-05 17:39:56</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -123,7 +123,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -133,7 +133,7 @@
 <Data>
     <Name>Field Password.Set</Name>
     <Description>"bni1234/"</Description>
-    <StartTime>2022-12-01 13:53:48</StartTime>
+    <StartTime>2022-12-05 17:39:56</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -169,7 +169,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -179,7 +179,7 @@
 <Data>
     <Name>Btn Login.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:53:51</StartTime>
+    <StartTime>2022-12-05 17:40:01</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -214,7 +214,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -224,7 +224,7 @@
 <Data>
     <Name>Alert Invalid UserName or Password.Exist</Name>
     <Description>"Object does not exist"</Description>
-    <StartTime>2022-12-01 13:54:10</StartTime>
+    <StartTime>2022-12-05 17:40:18</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -256,7 +256,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -265,8 +265,8 @@
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:53:48</StartTime>
-    <Duration>27</Duration>
+    <StartTime>2022-12-05 17:39:56</StartTime>
+    <Duration>28</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -283,7 +283,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -293,7 +293,7 @@
 <Data>
     <Name>Alert Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:54:15</StartTime>
+    <StartTime>2022-12-05 17:40:24</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -333,7 +333,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -343,7 +343,7 @@
 <Data>
     <Name>Btn OK.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:15</StartTime>
+    <StartTime>2022-12-05 17:40:25</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -386,7 +386,7 @@
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -395,8 +395,8 @@
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:54:15</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2022-12-05 17:40:24</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -413,7 +413,7 @@
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -421,54 +421,9 @@
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
-    <Name>Role.Click</Name>
+    <Name>Menu KLAIM.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:15</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Role Name.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:54:16</StartTime>
+    <StartTime>2022-12-05 17:40:25</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -484,256 +439,7 @@
           </Object>
           <Object>
             <Type>Link</Type>
-            <Name><![CDATA[Role Name]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[Klaim]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Description mismatch</Name>
-    <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:54:18</StartTime>
-    <Result>Warning</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;type=button&lt;br&gt;name=Administration&lt;br&gt;micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (7 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-name=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;type=button&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 6 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;value=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;class=btn btn-bni dropdown-toggle&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:54:18</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>type=button<br>name=Administration<br>micclass=WebButton<br>html tag=BUTTON<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (7 objects found)&nbsp;</FONT></u><br>
-micclass=WebButton<br>html tag=BUTTON<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN class=passed> (Used</SPAN>, 6 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>value=Administration<SPAN class=Failed> (Skipped)</SPAN><br>class=btn btn-bni dropdown-toggle<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Main Menu.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:54:20</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[Main Menu]]></Name>
+            <Name><![CDATA[Menu KLAIM]]></Name>
           </Object>
         </Path>
         <Operation>Click</Operation>
@@ -743,12 +449,20 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Value><![CDATA[Setup]]></Value>
           </Property>
           <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[A]]></Value>
           </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -758,7 +472,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sub Menu.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:21</StartTime>
+    <StartTime>2022-12-05 17:40:26</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -789,7 +503,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -798,9 +512,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sidebar</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:54:15</StartTime>
-    <Duration>10</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:40:25</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
@@ -816,7 +530,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -826,7 +540,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Tambah.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:25</StartTime>
+    <StartTime>2022-12-05 17:40:31</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -861,7 +575,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -871,7 +585,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Kode Laporan.Set</Name>
     <Description>"QAS12"</Description>
-    <StartTime>2022-12-01 13:54:30</StartTime>
+    <StartTime>2022-12-05 17:40:36</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -907,7 +621,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -917,7 +631,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Nama Laporan.Set</Name>
     <Description>"TESTING111"</Description>
-    <StartTime>2022-12-01 13:54:30</StartTime>
+    <StartTime>2022-12-05 17:40:36</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -953,7 +667,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -963,7 +677,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Dropdown Jenis Laporan.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:30</StartTime>
+    <StartTime>2022-12-05 17:40:36</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -998,7 +712,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1008,7 +722,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Search.Set</Name>
     <Description>"LKL Laporan Kliring"</Description>
-    <StartTime>2022-12-01 13:54:31</StartTime>
+    <StartTime>2022-12-05 17:40:37</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1044,7 +758,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1054,7 +768,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Simpan.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:37</StartTime>
+    <StartTime>2022-12-05 17:40:43</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1089,7 +803,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1099,7 +813,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>"Notifikasi"- Description mismatch</Name>
     <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:54:48</StartTime>
+    <StartTime>2022-12-05 17:40:55</StartTime>
     <Result>Warning</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -1112,14 +826,14 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -1179,7 +893,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1188,10 +902,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Step">
 <Data>
     <Name>"Notifikasi"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1755 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1956 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=WebElement&lt;br&gt;html tag=DIV&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:54:48</StartTime>
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1942 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-12-05 17:40:55</StartTime>
     <Result>Done</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -1204,14 +918,14 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -1255,9 +969,9 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[Notifikasi]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1755 objects found)&nbsp;</FONT></u><br>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1956 objects found)&nbsp;</FONT></u><br>
 micclass=WebElement<br>html tag=DIV<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+html id=<SPAN class=passed> (Used</SPAN>, 1942 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[innertext]]></Name>
@@ -1273,7 +987,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
+      <IconKey>deabcf7a2e354093a341cb91a34c55be</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1283,7 +997,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:54:48</StartTime>
+    <StartTime>2022-12-05 17:40:55</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1319,7 +1033,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1329,7 +1043,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>"Notifikasi"- Description mismatch</Name>
     <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:54:50</StartTime>
+    <StartTime>2022-12-05 17:40:57</StartTime>
     <Result>Warning</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -1342,14 +1056,14 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -1409,7 +1123,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1418,10 +1132,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <ReportNode type="Step">
 <Data>
     <Name>"Notifikasi"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1755 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1956 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=WebElement&lt;br&gt;html tag=DIV&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:54:50</StartTime>
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1942 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-12-05 17:40:57</StartTime>
     <Result>Done</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -1434,14 +1148,14 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -1485,9 +1199,9 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[Notifikasi]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1755 objects found)&nbsp;</FONT></u><br>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1956 objects found)&nbsp;</FONT></u><br>
 micclass=WebElement<br>html tag=DIV<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+html id=<SPAN class=passed> (Used</SPAN>, 1942 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[innertext]]></Name>
@@ -1503,7 +1217,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
+      <IconKey>deabcf7a2e354093a341cb91a34c55be</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1513,7 +1227,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn X Notifikasi.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:55</StartTime>
+    <StartTime>2022-12-05 17:41:05</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1552,7 +1266,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1561,8 +1275,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Setup Laporan</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:54:25</StartTime>
-    <Duration>32</Duration>
+    <StartTime>2022-12-05 17:40:31</StartTime>
+    <Duration>35</Duration>
     <Result>Warning</Result>
     <Extension>
       <TestObject>
@@ -1579,7 +1293,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1589,7 +1303,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Profile.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:54:57</StartTime>
+    <StartTime>2022-12-05 17:41:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1625,7 +1339,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1635,7 +1349,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Profile.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:54:57</StartTime>
+    <StartTime>2022-12-05 17:41:06</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1670,7 +1384,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1680,7 +1394,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn Logout.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:55:02</StartTime>
+    <StartTime>2022-12-05 17:41:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1715,7 +1429,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1724,8 +1438,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:54:57</StartTime>
-    <Duration>6</Duration>
+    <StartTime>2022-12-05 17:41:06</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1742,7 +1456,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1752,7 +1466,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Login.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:55:03</StartTime>
+    <StartTime>2022-12-05 17:41:13</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1784,7 +1498,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1793,8 +1507,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:55:03</StartTime>
-    <Duration>4</Duration>
+    <StartTime>2022-12-05 17:41:13</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1811,7 +1525,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1819,12 +1533,12 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>DPLK</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2022-12-01 13:53:48</StartTime>
+    <StartTime>2022-12-05 17:39:56</StartTime>
     <Duration>79</Duration>
     <Result>Warning</Result>
     <Extension>
       <TestObject>
-        <Repository>Local</Repository>
+        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Login.tsr</Repository>
         <Path>
           <Object>
             <Type>Browser</Type>
@@ -1833,7 +1547,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>ed47dbcb72f740409de5d2bf264d4f36</IconKey>
+      <IconKey>f8f1cf5b8c9a4b1aa20795e82c7e0494</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -1841,11 +1555,11 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:53:24</StartTime>
-    <Duration>103</Duration>
+    <StartTime>2022-12-05 17:39:25</StartTime>
+    <Duration>110</Duration>
     <Result>Warning</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -1856,10 +1570,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:55:07</StartTime>
+    <StartTime>2022-12-05 17:41:15</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1869,10 +1583,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:55:07</StartTime>
+    <StartTime>2022-12-05 17:41:15</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1882,10 +1596,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:55:07</StartTime>
+    <StartTime>2022-12-05 17:41:15</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1895,10 +1609,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:55:07</StartTime>
+    <StartTime>2022-12-05 17:41:15</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1908,10 +1622,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:55:07</StartTime>
+    <StartTime>2022-12-05 17:41:15</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1920,10 +1634,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "chrome",3</Name>
-    <StartTime>2022-12-01 13:55:09</StartTime>
+    <StartTime>2022-12-05 17:41:21</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>dfb3190b0d0e41bbbbbdc9bf6079ee70</IconKey>
+      <IconKey>cd66f7d05002477a9ba004438bf56279</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1935,7 +1649,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Field Username.Set</Name>
     <Description>"Putri"</Description>
-    <StartTime>2022-12-01 13:55:27</StartTime>
+    <StartTime>2022-12-05 17:41:42</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -1971,7 +1685,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -1981,7 +1695,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Field Password.Set</Name>
     <Description>"bni1234/"</Description>
-    <StartTime>2022-12-01 13:55:27</StartTime>
+    <StartTime>2022-12-05 17:41:42</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2017,7 +1731,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2027,7 +1741,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn Login.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:55:30</StartTime>
+    <StartTime>2022-12-05 17:41:47</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2062,7 +1776,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2072,7 +1786,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Alert Invalid UserName or Password.Exist</Name>
     <Description>"Object does not exist"</Description>
-    <StartTime>2022-12-01 13:55:50</StartTime>
+    <StartTime>2022-12-05 17:42:03</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2104,7 +1818,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2113,7 +1827,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:55:27</StartTime>
+    <StartTime>2022-12-05 17:41:42</StartTime>
     <Duration>28</Duration>
     <Result>Done</Result>
     <Extension>
@@ -2131,7 +1845,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -2141,7 +1855,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Alert Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:55:55</StartTime>
+    <StartTime>2022-12-05 17:42:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2181,7 +1895,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2191,7 +1905,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn OK.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:55:55</StartTime>
+    <StartTime>2022-12-05 17:42:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2234,7 +1948,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2243,8 +1957,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:55:55</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2022-12-05 17:42:10</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2261,7 +1975,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -2269,54 +1983,9 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
-    <Name>Role.Click</Name>
+    <Name>Menu KLAIM.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:55:55</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Role Name.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:55:55</StartTime>
+    <StartTime>2022-12-05 17:42:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2332,256 +2001,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Object>
           <Object>
             <Type>Link</Type>
-            <Name><![CDATA[Role Name]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[Klaim]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Description mismatch</Name>
-    <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:55:57</StartTime>
-    <Result>Warning</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;type=button&lt;br&gt;name=Administration&lt;br&gt;micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (7 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-name=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;type=button&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 6 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;value=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;class=btn btn-bni dropdown-toggle&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:55:57</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>type=button<br>name=Administration<br>micclass=WebButton<br>html tag=BUTTON<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (7 objects found)&nbsp;</FONT></u><br>
-micclass=WebButton<br>html tag=BUTTON<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN class=passed> (Used</SPAN>, 6 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>value=Administration<SPAN class=Failed> (Skipped)</SPAN><br>class=btn btn-bni dropdown-toggle<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Main Menu.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:56:00</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[Main Menu]]></Name>
+            <Name><![CDATA[Menu KLAIM]]></Name>
           </Object>
         </Path>
         <Operation>Click</Operation>
@@ -2591,12 +2011,20 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Value><![CDATA[Setup]]></Value>
           </Property>
           <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[A]]></Value>
           </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2606,7 +2034,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sub Menu.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:00</StartTime>
+    <StartTime>2022-12-05 17:42:11</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2637,7 +2065,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2646,9 +2074,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sidebar</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:55:55</StartTime>
-    <Duration>10</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:42:11</StartTime>
+    <Duration>5</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
@@ -2664,7 +2092,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -2674,7 +2102,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Search.Set</Name>
     <Description>"QAS12"</Description>
-    <StartTime>2022-12-01 13:56:05</StartTime>
+    <StartTime>2022-12-05 17:42:16</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2710,7 +2138,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2720,7 +2148,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Ubah.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:10</StartTime>
+    <StartTime>2022-12-05 17:42:21</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2759,7 +2187,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2769,7 +2197,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Nama Laporan.Set</Name>
     <Description>"TESTING222"</Description>
-    <StartTime>2022-12-01 13:56:15</StartTime>
+    <StartTime>2022-12-05 17:42:27</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2805,7 +2233,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2815,7 +2243,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Simpan.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:20</StartTime>
+    <StartTime>2022-12-05 17:42:32</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2850,7 +2278,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2860,7 +2288,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:56:27</StartTime>
+    <StartTime>2022-12-05 17:42:39</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2896,7 +2324,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2906,7 +2334,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn X Notifikasi.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:32</StartTime>
+    <StartTime>2022-12-05 17:42:45</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2945,7 +2373,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -2954,8 +2382,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Setup Laporan</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:56:05</StartTime>
-    <Duration>28</Duration>
+    <StartTime>2022-12-05 17:42:16</StartTime>
+    <Duration>30</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -2972,7 +2400,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -2982,7 +2410,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Profile.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:56:33</StartTime>
+    <StartTime>2022-12-05 17:42:46</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3018,7 +2446,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3028,7 +2456,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Profile.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:33</StartTime>
+    <StartTime>2022-12-05 17:42:46</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3063,7 +2491,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3073,7 +2501,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Logout.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:38</StartTime>
+    <StartTime>2022-12-05 17:42:51</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3108,7 +2536,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3117,8 +2545,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:56:33</StartTime>
-    <Duration>6</Duration>
+    <StartTime>2022-12-05 17:42:46</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3135,7 +2563,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -3145,7 +2573,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:56:39</StartTime>
+    <StartTime>2022-12-05 17:42:53</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3177,7 +2605,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3186,8 +2614,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:56:39</StartTime>
-    <Duration>4</Duration>
+    <StartTime>2022-12-05 17:42:53</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3204,7 +2632,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -3212,12 +2640,12 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>DPLK</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2022-12-01 13:55:27</StartTime>
-    <Duration>76</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:41:42</StartTime>
+    <Duration>72</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
-        <Repository>Local</Repository>
+        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Login.tsr</Repository>
         <Path>
           <Object>
             <Type>Browser</Type>
@@ -3226,7 +2654,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>ed47dbcb72f740409de5d2bf264d4f36</IconKey>
+      <IconKey>f8f1cf5b8c9a4b1aa20795e82c7e0494</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -3234,11 +2662,11 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:55:07</StartTime>
-    <Duration>96</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:41:15</StartTime>
+    <Duration>99</Duration>
+    <Result>Passed</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>2</Index>
@@ -3249,10 +2677,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:56:43</StartTime>
+    <StartTime>2022-12-05 17:42:55</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3262,10 +2690,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:56:43</StartTime>
+    <StartTime>2022-12-05 17:42:55</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3275,10 +2703,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:56:43</StartTime>
+    <StartTime>2022-12-05 17:42:55</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3288,10 +2716,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:56:43</StartTime>
+    <StartTime>2022-12-05 17:42:55</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3301,10 +2729,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:56:43</StartTime>
+    <StartTime>2022-12-05 17:42:55</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3313,10 +2741,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "chrome",3</Name>
-    <StartTime>2022-12-01 13:56:45</StartTime>
+    <StartTime>2022-12-05 17:43:00</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>dfb3190b0d0e41bbbbbdc9bf6079ee70</IconKey>
+      <IconKey>cd66f7d05002477a9ba004438bf56279</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3328,7 +2756,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Username.Set</Name>
     <Description>"Putri"</Description>
-    <StartTime>2022-12-01 13:57:04</StartTime>
+    <StartTime>2022-12-05 17:43:21</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3364,7 +2792,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3374,7 +2802,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Password.Set</Name>
     <Description>"bni1234/"</Description>
-    <StartTime>2022-12-01 13:57:04</StartTime>
+    <StartTime>2022-12-05 17:43:22</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3410,7 +2838,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3420,7 +2848,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Login.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:07</StartTime>
+    <StartTime>2022-12-05 17:43:27</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3455,7 +2883,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3465,7 +2893,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Alert Invalid UserName or Password.Exist</Name>
     <Description>"Object does not exist"</Description>
-    <StartTime>2022-12-01 13:57:27</StartTime>
+    <StartTime>2022-12-05 17:43:45</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3497,7 +2925,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3506,8 +2934,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:57:04</StartTime>
-    <Duration>28</Duration>
+    <StartTime>2022-12-05 17:43:21</StartTime>
+    <Duration>31</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3524,7 +2952,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -3534,7 +2962,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Alert Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:57:32</StartTime>
+    <StartTime>2022-12-05 17:43:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3574,7 +3002,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3584,7 +3012,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn OK.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:32</StartTime>
+    <StartTime>2022-12-05 17:43:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3627,7 +3055,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3636,7 +3064,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:57:32</StartTime>
+    <StartTime>2022-12-05 17:43:52</StartTime>
     <Duration>0</Duration>
     <Result>Done</Result>
     <Extension>
@@ -3654,7 +3082,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -3662,54 +3090,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
-    <Name>Role.Click</Name>
+    <Name>Menu KLAIM.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:32</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Role Name.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:57:33</StartTime>
+    <StartTime>2022-12-05 17:43:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -3725,256 +3108,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Object>
           <Object>
             <Type>Link</Type>
-            <Name><![CDATA[Role Name]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[Klaim]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Description mismatch</Name>
-    <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:57:35</StartTime>
-    <Result>Warning</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;type=button&lt;br&gt;name=Administration&lt;br&gt;micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (7 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-name=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;type=button&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 6 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;value=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;class=btn btn-bni dropdown-toggle&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:57:35</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>type=button<br>name=Administration<br>micclass=WebButton<br>html tag=BUTTON<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (7 objects found)&nbsp;</FONT></u><br>
-micclass=WebButton<br>html tag=BUTTON<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN class=passed> (Used</SPAN>, 6 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>value=Administration<SPAN class=Failed> (Skipped)</SPAN><br>class=btn btn-bni dropdown-toggle<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Main Menu.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:57:38</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[Main Menu]]></Name>
+            <Name><![CDATA[Menu KLAIM]]></Name>
           </Object>
         </Path>
         <Operation>Click</Operation>
@@ -3984,12 +3118,20 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Value><![CDATA[Setup]]></Value>
           </Property>
           <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[A]]></Value>
           </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -3999,7 +3141,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sub Menu.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:38</StartTime>
+    <StartTime>2022-12-05 17:43:53</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4030,7 +3172,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4039,9 +3181,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sidebar</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:57:32</StartTime>
-    <Duration>11</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:43:52</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
@@ -4057,7 +3199,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4067,7 +3209,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Search.Set</Name>
     <Description>"QAS12"</Description>
-    <StartTime>2022-12-01 13:57:43</StartTime>
+    <StartTime>2022-12-05 17:43:58</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4103,7 +3245,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4113,7 +3255,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Lihat.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:48</StartTime>
+    <StartTime>2022-12-05 17:44:04</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4152,7 +3294,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4161,8 +3303,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Setup Laporan</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:57:43</StartTime>
-    <Duration>11</Duration>
+    <StartTime>2022-12-05 17:43:58</StartTime>
+    <Duration>12</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4179,7 +3321,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4189,7 +3331,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Profile.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:57:54</StartTime>
+    <StartTime>2022-12-05 17:44:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4225,7 +3367,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4235,7 +3377,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Profile.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:54</StartTime>
+    <StartTime>2022-12-05 17:44:10</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4270,7 +3412,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4280,7 +3422,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Logout.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:57:59</StartTime>
+    <StartTime>2022-12-05 17:44:16</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4315,7 +3457,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4324,8 +3466,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:57:54</StartTime>
-    <Duration>6</Duration>
+    <StartTime>2022-12-05 17:44:10</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4342,7 +3484,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4352,7 +3494,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:58:00</StartTime>
+    <StartTime>2022-12-05 17:44:17</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4384,7 +3526,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4393,8 +3535,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:58:00</StartTime>
-    <Duration>4</Duration>
+    <StartTime>2022-12-05 17:44:17</StartTime>
+    <Duration>2</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4411,7 +3553,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4419,12 +3561,12 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>DPLK</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2022-12-01 13:57:04</StartTime>
-    <Duration>60</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:43:21</StartTime>
+    <Duration>58</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
-        <Repository>Local</Repository>
+        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Login.tsr</Repository>
         <Path>
           <Object>
             <Type>Browser</Type>
@@ -4433,7 +3575,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>ed47dbcb72f740409de5d2bf264d4f36</IconKey>
+      <IconKey>f8f1cf5b8c9a4b1aa20795e82c7e0494</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4441,11 +3583,11 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:56:43</StartTime>
-    <Duration>81</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:42:54</StartTime>
+    <Duration>85</Duration>
+    <Result>Passed</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>3</Index>
@@ -4456,10 +3598,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:58:04</StartTime>
+    <StartTime>2022-12-05 17:44:19</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4469,10 +3611,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:58:04</StartTime>
+    <StartTime>2022-12-05 17:44:19</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4482,10 +3624,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:58:04</StartTime>
+    <StartTime>2022-12-05 17:44:19</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4495,10 +3637,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:58:05</StartTime>
+    <StartTime>2022-12-05 17:44:19</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4508,10 +3650,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:58:05</StartTime>
+    <StartTime>2022-12-05 17:44:19</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4520,10 +3662,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Step">
 <Data>
     <Name>SystemUtil.Run "chrome",3</Name>
-    <StartTime>2022-12-01 13:58:07</StartTime>
+    <StartTime>2022-12-05 17:44:25</StartTime>
     <Result>Done</Result>
     <Extension>
-      <IconKey>dfb3190b0d0e41bbbbbdc9bf6079ee70</IconKey>
+      <IconKey>cd66f7d05002477a9ba004438bf56279</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4535,7 +3677,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Username.Set</Name>
     <Description>"Putri"</Description>
-    <StartTime>2022-12-01 13:58:25</StartTime>
+    <StartTime>2022-12-05 17:44:46</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4571,7 +3713,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4581,7 +3723,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Password.Set</Name>
     <Description>"bni1234/"</Description>
-    <StartTime>2022-12-01 13:58:25</StartTime>
+    <StartTime>2022-12-05 17:44:46</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4617,7 +3759,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4627,7 +3769,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Login.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:58:29</StartTime>
+    <StartTime>2022-12-05 17:44:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4662,7 +3804,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4672,7 +3814,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Alert Invalid UserName or Password.Exist</Name>
     <Description>"Object does not exist"</Description>
-    <StartTime>2022-12-01 13:58:48</StartTime>
+    <StartTime>2022-12-05 17:45:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4704,7 +3846,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4713,8 +3855,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:58:25</StartTime>
-    <Duration>29</Duration>
+    <StartTime>2022-12-05 17:44:46</StartTime>
+    <Duration>30</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4731,7 +3873,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4741,7 +3883,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Alert Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:58:54</StartTime>
+    <StartTime>2022-12-05 17:45:16</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4781,7 +3923,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4791,7 +3933,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn OK.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:58:54</StartTime>
+    <StartTime>2022-12-05 17:45:16</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4834,7 +3976,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -4843,8 +3985,8 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:58:54</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2022-12-05 17:45:16</StartTime>
+    <Duration>1</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4861,7 +4003,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -4869,54 +4011,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Context">
 <ReportNode type="Step">
 <Data>
-    <Name>Role.Click</Name>
+    <Name>Menu KLAIM.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:58:54</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Role Name.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:58:54</StartTime>
+    <StartTime>2022-12-05 17:45:17</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -4932,256 +4029,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Object>
           <Object>
             <Type>Link</Type>
-            <Name><![CDATA[Role Name]]></Name>
-          </Object>
-        </Path>
-        <Operation>Click</Operation>
-        <Properties>
-          <Property>
-            <Name><![CDATA[text]]></Name>
-            <Value><![CDATA[Klaim]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[A]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Description mismatch</Name>
-    <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:58:56</StartTime>
-    <Result>Warning</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>"Role"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;type=button&lt;br&gt;name=Administration&lt;br&gt;micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (7 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-micclass=WebButton&lt;br&gt;html tag=BUTTON&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-name=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;type=button&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 6 matches)&lt;/SPAN&gt;&lt;br&gt;html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;value=Administration&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;class=btn btn-bni dropdown-toggle&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:58:56</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <SmartIdentificationInfo>
-        <SIDBasicProperties>
-          <Property>
-            <Name><![CDATA[micclass]]></Name>
-            <Value><![CDATA[WebButton]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-          <BasicMatch>7</BasicMatch>
-        </SIDBasicProperties>
-        <SIDOptionalProperties>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>6</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[html id]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>4</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[value]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-            <Info><![CDATA[Skipped]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[class]]></Name>
-            <Value><![CDATA[btn btn-bni dropdown-toggle]]></Value>
-            <Info><![CDATA[Used]]></Info>
-            <Matches>1</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[visible]]></Name>
-            <Value><![CDATA[True]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-          <Property>
-            <Name><![CDATA[acc_name]]></Name>
-            <Value><![CDATA[]]></Value>
-            <Info><![CDATA[Ignored]]></Info>
-            <Matches>0</Matches>
-          </Property>
-        </SIDOptionalProperties>
-      </SmartIdentificationInfo>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>WebButton</Type>
-            <Name><![CDATA[Role]]></Name>
-          </Object>
-        </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>type=button<br>name=Administration<br>micclass=WebButton<br>html tag=BUTTON<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (7 objects found)&nbsp;</FONT></u><br>
-micclass=WebButton<br>html tag=BUTTON<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN class=passed> (Used</SPAN>, 6 matches)</SPAN><br>html id=<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>value=Administration<SPAN class=Failed> (Skipped)</SPAN><br>class=btn btn-bni dropdown-toggle<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
-        <Properties>
-          <Property>
-            <Name><![CDATA[type]]></Name>
-            <Value><![CDATA[button]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[name]]></Name>
-            <Value><![CDATA[Administration]]></Value>
-          </Property>
-          <Property>
-            <Name><![CDATA[html tag]]></Name>
-            <Value><![CDATA[BUTTON]]></Value>
-          </Property>
-        </Properties>
-      </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
-      <IsPlainTextNodeName>True</IsPlainTextNodeName>
-    </Extension>
-    <DeviceInfo />
-  </Data>
-</ReportNode>
-<ReportNode type="Step">
-<Data>
-    <Name>Main Menu.Click</Name>
-    <Description />
-    <StartTime>2022-12-01 13:59:00</StartTime>
-    <Result>Done</Result>
-    <Extension>
-      <TestObject>
-        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
-        <Path>
-          <Object>
-            <Type>Browser</Type>
-            <Name><![CDATA[DPLK]]></Name>
-          </Object>
-          <Object>
-            <Type>Page</Type>
-            <Name><![CDATA[Sidebar]]></Name>
-          </Object>
-          <Object>
-            <Type>Link</Type>
-            <Name><![CDATA[Main Menu]]></Name>
+            <Name><![CDATA[Menu KLAIM]]></Name>
           </Object>
         </Path>
         <Operation>Click</Operation>
@@ -5191,12 +4039,20 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Value><![CDATA[Setup]]></Value>
           </Property>
           <Property>
+            <Name><![CDATA[role]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[A]]></Value>
           </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5206,7 +4062,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sub Menu.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:00</StartTime>
+    <StartTime>2022-12-05 17:45:17</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5237,7 +4093,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>242863f7fcf54b2089f89a8ccf0edaec</IconKey>
+      <IconKey>d791941c581e480b8f989adb4d12eca8</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5246,9 +4102,9 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Sidebar</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:58:54</StartTime>
-    <Duration>11</Duration>
-    <Result>Warning</Result>
+    <StartTime>2022-12-05 17:45:17</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
     <Extension>
       <TestObject>
         <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Sidebar.tsr</Repository>
@@ -5264,7 +4120,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -5274,7 +4130,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Search.Set</Name>
     <Description>"QAS12"</Description>
-    <StartTime>2022-12-01 13:59:05</StartTime>
+    <StartTime>2022-12-05 17:45:23</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5310,7 +4166,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5320,7 +4176,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Hapus.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:10</StartTime>
+    <StartTime>2022-12-05 17:45:28</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5359,7 +4215,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5369,7 +4225,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Ya, yakin!.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:16</StartTime>
+    <StartTime>2022-12-05 17:45:34</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5404,7 +4260,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5414,7 +4270,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Field Password Hapus Data.Set</Name>
     <Description>"bni1234/"</Description>
-    <StartTime>2022-12-01 13:59:16</StartTime>
+    <StartTime>2022-12-05 17:45:34</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5450,7 +4306,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6f2a1ad762ca4d7ea508146c322c8a8b</IconKey>
+      <IconKey>610bf05456384e0aa957c1fb7da1dbd1</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5460,7 +4316,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>Btn Submit.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:21</StartTime>
+    <StartTime>2022-12-05 17:45:41</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5495,7 +4351,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5505,7 +4361,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <Data>
     <Name>"Notifikasi"- Description mismatch</Name>
     <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:59:32</StartTime>
+    <StartTime>2022-12-05 17:45:52</StartTime>
     <Result>Warning</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -5518,14 +4374,14 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -5585,7 +4441,7 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5594,10 +4450,10 @@ name=Administration<SPAN class=Failed> (Skipped)</SPAN><br>type=button<SPAN clas
 <ReportNode type="Step">
 <Data>
     <Name>"Notifikasi"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1755 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1956 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=WebElement&lt;br&gt;html tag=DIV&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:59:32</StartTime>
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1942 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-12-05 17:45:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -5610,14 +4466,14 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -5661,9 +4517,9 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[Notifikasi]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1755 objects found)&nbsp;</FONT></u><br>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1956 objects found)&nbsp;</FONT></u><br>
 micclass=WebElement<br>html tag=DIV<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+html id=<SPAN class=passed> (Used</SPAN>, 1942 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[innertext]]></Name>
@@ -5679,7 +4535,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
+      <IconKey>deabcf7a2e354093a341cb91a34c55be</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5689,7 +4545,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Notifikasi.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:59:32</StartTime>
+    <StartTime>2022-12-05 17:45:52</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5725,7 +4581,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5735,7 +4591,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>"Notifikasi"- Description mismatch</Name>
     <Description>The object was not found using the test object description. Check the object's properties.</Description>
-    <StartTime>2022-12-01 13:59:34</StartTime>
+    <StartTime>2022-12-05 17:45:55</StartTime>
     <Result>Warning</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -5748,14 +4604,14 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -5815,7 +4671,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5824,10 +4680,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <ReportNode type="Step">
 <Data>
     <Name>"Notifikasi"- Smart Identification</Name>
-    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1755 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=×Data berhasil diupdate&lt;br&gt;html tag=DIV&lt;br&gt;class=toast toast-success&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1956 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
 micclass=WebElement&lt;br&gt;html tag=DIV&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
-html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
-    <StartTime>2022-12-01 13:59:34</StartTime>
+html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1942 matches)&lt;/SPAN&gt;&lt;br&gt;class=toast toast-success&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;innertext=×Data berhasil diupdate&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-12-05 17:45:55</StartTime>
     <Result>Done</Result>
     <Extension>
       <SmartIdentificationInfo>
@@ -5840,14 +4696,14 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[html tag]]></Name>
             <Value><![CDATA[DIV]]></Value>
           </Property>
-          <BasicMatch>1755</BasicMatch>
+          <BasicMatch>1956</BasicMatch>
         </SIDBasicProperties>
         <SIDOptionalProperties>
           <Property>
             <Name><![CDATA[html id]]></Name>
             <Value><![CDATA[]]></Value>
             <Info><![CDATA[Used]]></Info>
-            <Matches>1741</Matches>
+            <Matches>1942</Matches>
           </Property>
           <Property>
             <Name><![CDATA[class]]></Name>
@@ -5891,9 +4747,9 @@ html id=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1741 matches)&lt;/SPAN&gt;
             <Name><![CDATA[Notifikasi]]></Name>
           </Object>
         </Path>
-        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1755 objects found)&nbsp;</FONT></u><br>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=×Data berhasil diupdate<br>html tag=DIV<br>class=toast toast-success<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1956 objects found)&nbsp;</FONT></u><br>
 micclass=WebElement<br>html tag=DIV<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
-html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+html id=<SPAN class=passed> (Used</SPAN>, 1942 matches)</SPAN><br>class=toast toast-success<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>innertext=×Data berhasil diupdate<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>visible=-1<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
         <Properties>
           <Property>
             <Name><![CDATA[innertext]]></Name>
@@ -5909,7 +4765,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>2c19531fae02481aad7064c6cffd6de4</IconKey>
+      <IconKey>deabcf7a2e354093a341cb91a34c55be</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5919,7 +4775,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn X Notifikasi.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:40</StartTime>
+    <StartTime>2022-12-05 17:46:01</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -5958,7 +4814,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -5967,8 +4823,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Setup Laporan</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:59:05</StartTime>
-    <Duration>36</Duration>
+    <StartTime>2022-12-05 17:45:23</StartTime>
+    <Duration>39</Duration>
     <Result>Warning</Result>
     <Extension>
       <TestObject>
@@ -5985,7 +4841,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -5995,7 +4851,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Profile.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:59:41</StartTime>
+    <StartTime>2022-12-05 17:46:02</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6031,7 +4887,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6041,7 +4897,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Profile.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:41</StartTime>
+    <StartTime>2022-12-05 17:46:02</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6076,7 +4932,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>6e3b7319f5654b13931aa959cb03be1f</IconKey>
+      <IconKey>557b6c14e30b41c29c58f36a4614421f</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6086,7 +4942,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Btn Logout.Click</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:46</StartTime>
+    <StartTime>2022-12-05 17:46:08</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6121,7 +4977,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>98d85ef990524b45afc1a53874a9f1fe</IconKey>
+      <IconKey>14798f7d98924b2ea2cdfdbf2bb76349</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6130,8 +4986,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Dashboard</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:59:41</StartTime>
-    <Duration>6</Duration>
+    <StartTime>2022-12-05 17:46:02</StartTime>
+    <Duration>7</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6148,7 +5004,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6158,7 +5014,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Login.Exist</Name>
     <Description>"Object exists"</Description>
-    <StartTime>2022-12-01 13:59:47</StartTime>
+    <StartTime>2022-12-05 17:46:09</StartTime>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6190,7 +5046,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
           </Property>
         </Properties>
       </TestObject>
-      <IconKey>8580679139214792baddcc3530fd46a9</IconKey>
+      <IconKey>8160aeeff82d430f856841ff098a8959</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6199,8 +5055,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Login</Name>
     <Description>Page</Description>
-    <StartTime>2022-12-01 13:59:47</StartTime>
-    <Duration>5</Duration>
+    <StartTime>2022-12-05 17:46:09</StartTime>
+    <Duration>3</Duration>
     <Result>Done</Result>
     <Extension>
       <TestObject>
@@ -6217,7 +5073,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[Page]]></OperationData>
       </TestObject>
-      <IconKey>141955f884ed493c8068f1dd4830887f</IconKey>
+      <IconKey>4a0f683993904689ac75773ef99c02c6</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6225,12 +5081,12 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>DPLK</Name>
     <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
-    <StartTime>2022-12-01 13:58:25</StartTime>
-    <Duration>87</Duration>
+    <StartTime>2022-12-05 17:44:46</StartTime>
+    <Duration>86</Duration>
     <Result>Warning</Result>
     <Extension>
       <TestObject>
-        <Repository>Local</Repository>
+        <Repository>C:\Users\1442\Desktop\DPLK 2\Lib_Repo_Excel\Repo\RP_Login.tsr</Repository>
         <Path>
           <Object>
             <Type>Browser</Type>
@@ -6239,7 +5095,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         </Path>
         <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
       </TestObject>
-      <IconKey>ed47dbcb72f740409de5d2bf264d4f36</IconKey>
+      <IconKey>f8f1cf5b8c9a4b1aa20795e82c7e0494</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6247,11 +5103,11 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:58:04</StartTime>
-    <Duration>108</Duration>
+    <StartTime>2022-12-05 17:44:19</StartTime>
+    <Duration>113</Duration>
     <Result>Warning</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>4</Index>
@@ -6262,10 +5118,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:12</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6275,10 +5131,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:12</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6288,10 +5144,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:12</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6301,10 +5157,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:12</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6314,10 +5170,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:12</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6327,10 +5183,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Stop action iteration replay</Name>
     <Description>Run stopped by user.</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Information</Result>
     <Extension>
-      <IconKey>6a722915f2ed4568b26dbaa03f02a6ad</IconKey>
+      <IconKey>d702a8c54d7e440bb8a8cd8acb49e5fa</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6338,11 +5194,11 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:52</StartTime>
-    <Duration>0</Duration>
+    <StartTime>2022-12-05 17:46:12</StartTime>
+    <Duration>1</Duration>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>5</Index>
@@ -6354,10 +5210,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6367,10 +5223,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6380,10 +5236,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6393,10 +5249,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6406,10 +5262,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>LoadFunctionLibrary</Name>
     <Description>LoadFunctionLibrary function passed</Description>
-    <StartTime>2022-12-01 13:59:52</StartTime>
+    <StartTime>2022-12-05 17:46:13</StartTime>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>b1edf18ad0e94c969ac7663ac0bdd8d4</IconKey>
+      <IconKey>f6755ae1ff194e5fb1362a25e9dd9e8b</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <DeviceInfo />
@@ -6419,10 +5275,10 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Stop action iteration replay</Name>
     <Description>Run stopped by user.</Description>
-    <StartTime>2022-12-01 14:00:02</StartTime>
+    <StartTime>2022-12-05 17:46:25</StartTime>
     <Result>Information</Result>
     <Extension>
-      <IconKey>6a722915f2ed4568b26dbaa03f02a6ad</IconKey>
+      <IconKey>d702a8c54d7e440bb8a8cd8acb49e5fa</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6430,11 +5286,11 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:59:52</StartTime>
-    <Duration>10</Duration>
+    <StartTime>2022-12-05 17:46:13</StartTime>
+    <Duration>12</Duration>
     <Result>Passed</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>6</Index>
@@ -6444,12 +5300,12 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>KLM001-010</Name>
     <Description />
-    <StartTime>2022-12-01 13:53:24</StartTime>
-    <Duration>398</Duration>
+    <StartTime>2022-12-05 17:39:25</StartTime>
+    <Duration>420</Duration>
     <Result>Warning</Result>
     <InputParameters />
     <Extension>
-      <IconKey>22c1fd4261d04000b450898719dd6cb1</IconKey>
+      <IconKey>350885b9e1504784bf77e784388006d4</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
   </Data>
@@ -6457,11 +5313,11 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 <Data>
     <Name>Action0</Name>
     <Description />
-    <StartTime>2022-12-01 13:53:16</StartTime>
-    <Duration>407</Duration>
+    <StartTime>2022-12-05 17:39:20</StartTime>
+    <Duration>425</Duration>
     <Result>Warning</Result>
     <Extension>
-      <IconKey>f8f6cbde0ba241b78aa2127535651e72</IconKey>
+      <IconKey>f94e914ec58f411d939f462627ca9932</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Index>1</Index>
@@ -6474,8 +5330,8 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
     <ToolVersion>2021</ToolVersion>
     <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
     <Description />
-    <StartTime>2022-12-01 13:53:14</StartTime>
-    <Duration>409</Duration>
+    <StartTime>2022-12-05 17:39:17</StartTime>
+    <Duration>428</Duration>
     <Result>Warning</Result>
     <InputParameters />
     <Extension>
@@ -6488,7 +5344,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
         <DesktopBrowser>Google Chrome</DesktopBrowser>
         <ErrorMessage />
       </ParallelRunnerEnvInfo>
-      <IconKey>e811e8d3d3ae4910a8fa3d0570ac0a4e</IconKey>
+      <IconKey>45d6e8343cd74c2194c7fa5176fdb316</IconKey>
       <IsPlainTextNodeName>True</IsPlainTextNodeName>
     </Extension>
     <Environment>
@@ -6509,7 +5365,7 @@ html id=<SPAN class=passed> (Used</SPAN>, 1741 matches)</SPAN><br>class=toast to
 </ReportNode>
 <GeneralInfo>
     <ResultName>Report</ResultName>
-    <RunStartTime>2022-12-01 13:53:14</RunStartTime>
+    <RunStartTime>2022-12-05 17:39:17</RunStartTime>
     <Timezone>+07:00:00</Timezone>
     <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
     <OrchestrationToolVersion>2021</OrchestrationToolVersion>
