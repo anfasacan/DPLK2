@@ -12,7 +12,6 @@ Call spAddScenario(dt_TCID, dt_TestScenarioDesc, dt_ScenarioDesc, dt_ExpectedRes
 Iteration = Environment.Value("ActionIteration")
 REM ------- DPLK
 Call DA_Login()
-'Call AC_Change_Role()
 Call AC_GoTo_Menu()
 
 If Iteration = 1 Then
@@ -26,7 +25,6 @@ ElseIf Iteration = 4 Then
 End If
 
 Call DA_Logout("0")
-
 Call spReportSave()
 	
 Sub spLoadLibrary()

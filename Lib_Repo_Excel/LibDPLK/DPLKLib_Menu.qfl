@@ -299,15 +299,27 @@ Sub AC_GoTo_Menu
 	Main_Menu = DataTable.Value("SIDEBAR_MENU",dtlocalsheet)
 	Sub_Menu = DataTable.Value("SIDEBAR_SUBMENU",dtlocalsheet)
 	Sub_Sub_Menu = DataTable.Value("SIDEBAR_SUBMENU_SUBMENU",dtlocalsheet)
+	Cek_Index_Sub_Menu = Split(Sub_Menu,",")
+	Cek_Index_Main_Menu = Split(Main_Menu,",")
 	
-	
-	Browser("DPLK").Page("Sidebar").Link("Menu " & Role).SetTOProperty "text", Main_Menu
-	Browser("DPLK").Page("Sidebar").Link("Menu " & Role, "index:=0").Click
+	If UBound(Cek_Index_Main_Menu) + 1 = 2 Then
+		Browser("DPLK").Page("Sidebar").Link("Menu " & Role).SetTOProperty "text", Cek_Index_Main_Menu(0)
+		Browser("DPLK").Page("Sidebar").Link("Menu " & Role).SetTOProperty "index", Cek_Index_Main_Menu(1)	
+	else
+		Browser("DPLK").Page("Sidebar").Link("Menu " & Role).SetTOProperty "text", Main_Menu	
+	End If
+	Browser("DPLK").Page("Sidebar").Link("Menu " & Role).Click
 
 
 	If Sub_Menu <> "" Then
-		Browser("DPLK").Page("Sidebar").Link("Sub Menu").SetTOProperty "text", Sub_Menu
+		If ubound(Cek_Index_Sub_Menu) + 1 = 2 Then
+			Browser("DPLK").Page("Sidebar").Link("Sub Menu").SetTOProperty "text", Cek_Index_Sub_Menu(0)
+			Browser("DPLK").Page("Sidebar").Link("Sub Menu").SetTOProperty "index", Cek_Index_Sub_Menu(1)
+		else
+			Browser("DPLK").Page("Sidebar").Link("Sub Menu").SetTOProperty "text", Sub_Menu	
+		End If	
 		Browser("DPLK").Page("Sidebar").Link("Sub Menu").Click
+		
 		If Sub_Sub_Menu <> "" Then
 			
 		End If
@@ -318,9 +330,17 @@ Sub AC_GoTo_Menu
 		Call CaptureImageUFTV2(Browser("DPLK").Page("Sidebar"),"Masuk Sub Sub Menu", "Menu Yang Dituju : " & Sub_Sub_Menu & " Dalam Sub Menu " & Sub_Menu,  compatibilityMode.Desktop, ReportStatus.Passed)
 		wait 2
 	ElseIf Sub_Menu <> "" Then
-		wait 2
-		Call CaptureImageUFTV2(Browser("DPLK").Page("Sidebar"),"Masuk Sub Menu", "Menu Yang Dituju :  " & Sub_Menu,  compatibilityMode.Desktop, ReportStatus.Passed)
-		wait 2
+		If ubound(Cek_Index_Sub_Menu) + 1 = 2 Then
+			wait 2
+			Call CaptureImageUFTV2(Browser("DPLK").Page("Sidebar"),"Masuk Sub Menu", "Menu Yang Dituju :  " & Cek_Index_Sub_Menu(0),  compatibilityMode.Desktop, ReportStatus.Passed)
+			wait 2
+		else
+			wait 2
+			Call CaptureImageUFTV2(Browser("DPLK").Page("Sidebar"),"Masuk Sub Menu", "Menu Yang Dituju :  " & Sub_Menu,  compatibilityMode.Desktop, ReportStatus.Passed)
+			wait 2
+		End If	
+		
+		
 	Else msgbox "Menu Tidak Ada"
 	End If
 End Sub
