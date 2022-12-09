@@ -321,7 +321,11 @@ Sub AC_GoTo_Menu
 		Browser("DPLK").Page("Sidebar").Link("Sub Menu").Click
 		
 		If Sub_Sub_Menu <> "" Then
-			
+			Browser("DPLK").Page("Sidebar").Link("Sub Sub Menu").SetTOProperty "text", Sub_Sub_Menu	
+			If not Browser("DPLK").Page("Sidebar").Link("Sub Sub Menu").Exist(2) Then
+				Browser("DPLK").Page("Sidebar").Link("Sub Menu").Click
+			End If
+			Browser("DPLK").Page("Sidebar").Link("Sub Sub Menu").Click
 		End If
 	End If
 	

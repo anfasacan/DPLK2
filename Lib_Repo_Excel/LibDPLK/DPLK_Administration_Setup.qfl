@@ -1,0 +1,613 @@
+﻿
+REM ==== Administration Setup Role
+Sub Tambah_Setup_Administration_Setup_Role
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Role").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Nama Role").Set DataTable.Value("NAMA_ROLE",dtlocalsheet)
+	Browser("DPLK").Page("Setup Role").WebElement("Dropdown Grub Role").Click
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.value("GRUB_ROLE",dtlocalsheet))
+	objkey.SendKeys "{ENTER}"
+	Browser("DPLK").Page("Setup Role").WebElement("Dropdown Status Aktif").Click
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.value("STATUS_AKTIF",dtlocalsheet))
+	objkey.SendKeys "{ENTER}"
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Role").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Administration_Setup_Role
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search").Set DataTable.Value("NAMA_ROLE",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Role").WebElement("Dropdown Grub Role").Click
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.value("GRUB_ROLE",dtlocalsheet))
+	objkey.SendKeys "{ENTER}"
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Role").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_Role
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search").Set DataTable.Value("NAMA_ROLE",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Administration_Setup_Role
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Search").Set DataTable.Value("NAMA_ROLE",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Role").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Role").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Role").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+
+REM ==== Administration Setup User
+Sub Tambah_Setup_Administration_Setup_User
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup User").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Browser("DPLK").Page("Setup User").WebEdit("Field Email").Set DataTable.Value("EMAIL",dtlocalsheet)
+	Browser("DPLK").Page("Setup User").WebEdit("Field Nama Belakang").Set DataTable.Value("NAMA_BELAKANG",dtlocalsheet)
+	Browser("DPLK").Page("Setup User").WebEdit("Field Nama Depan").Set DataTable.Value("NAMA_DEPAN",dtlocalsheet)
+	Browser("DPLK").Page("Setup User").WebEdit("Field Password").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	Browser("DPLK").Page("Setup User").WebEdit("Field Confirm Password").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	Browser("DPLK").Page("Setup User").WebEdit("Field UserName").Set DataTable.Value("USERNAME",dtlocalsheet)
+	
+		
+	Browser("DPLK").Page("Setup User").WebElement("Dropdown Status User").Click
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.Value("STATUS_AKTIF_USER",dtlocalsheet))
+	wait 1
+	objkey.SendKeys "{ENTER}"
+	
+	Browser("DPLK").Page("Setup User").WebElement("Dropdown Kode Entitas").Click
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.Value("KODE_ENTITAS",dtlocalsheet))
+	wait 1
+	objkey.SendKeys "{ENTER}"
+	
+	Browser("DPLK").Page("Setup User").WebElement("Dropdown Id Kantor").Click
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.Value("ID_KANTOR",dtlocalsheet))
+	wait 3
+	objkey.SendKeys "{ENTER}"
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup User").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup User").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup User").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup User").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Administration_Setup_User
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search").Set DataTable.Value("USERNAME",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup User").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup User").WebElement("Dropdown Id Kantor").Click
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys (DataTable.Value("ID_KANTOR",dtlocalsheet))
+	wait 3
+	objkey.SendKeys "{ENTER}"
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup User").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup User").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup User").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup User").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_User
+	Browser("DPLK").Page("Setup User").WebEdit("Field Search").Set DataTable.Value("USERNAME",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup User").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup User"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+REM ==== Administration Setup Role User
+
+Sub Ubah_Setup_Administration_Setup_Role_User
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Role User").WebEdit("Field Search").Set DataTable.Value("USERNAME",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role User").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Jumlah_Row = Browser("DPLK").Page("Setup Role User").WebTable("Tabel Kode Role").RowCount()
+	For Iterator = 1 To Jumlah_Row Step 1
+		kode_role = Browser("DPLK").Page("Setup Role User").WebTable("Tabel Kode Role").GetCellData(iterator,2)
+		If ucase(kode_role) = ucase(DataTable.Value("KODE_ROLE",dtlocalsheet)) Then
+			set CekBox = Browser("DPLK").Page("Setup Role User").WebTable("Tabel Kode Role").ChildItem(iterator,1,"WebCheckBox",0)
+			CekBox.click
+			Exit for
+		End If
+	Next
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role User").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Role User").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Role User").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Role User").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_Role_User
+	Browser("DPLK").Page("Setup Role User").WebEdit("Field Search").Set DataTable.Value("USERNAME",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role User").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Administration_Setup_Role_User
+	Browser("DPLK").Page("Setup Role User").WebEdit("Field Search").Set DataTable.Value("USERNAME",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Role User").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role User").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Role User").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Role User").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Role User").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Role User").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Role User"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Role User").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Administration Setup Kabupaten/Kota
+Sub Tambah_Setup_Administration_Setup_Kabupaten_Kota
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Nama Kota").set DataTable.Value("NAMA_KOTA",dtlocalsheet)
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Dropdown Register").Click
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys DataTable.Value("STATUS_REGISTER",dtlocalsheet)
+	objkey.SendKeys "{ENTER}"
+	
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Dropdown Provinsi").Click
+	objkey.SendKeys DataTable.Value("PROVINSI",dtlocalsheet)
+	objkey.SendKeys "{ENTER}"
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Administration_Setup_Kabupaten_Kota
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Search").Set DataTable.Value("NAMA_KOTA",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_Kabupaten_Kota
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Search").Set DataTable.Value("NAMA_KOTA",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Administration_Setup_Kabupaten_Kota
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Search").Set DataTable.Value("NAMA_KOTA",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kabupaten/Kota").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kabupaten/Kota"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kabupaten/Kota").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Administration Setup Provinsi
+Sub Tambah_Setup_Administration_Setup_Provinsi
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Provinsi").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Nama Provinsi").Set DataTable.Value("NAMA_PROVINSI",dtlocalsheet)
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	Browser("DPLK").Page("Setup Provinsi").WebElement("Dropdown Status Register").Click
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys DataTable.Value("STATUS_REGISTER",dtlocalsheet)
+	objkey.SendKeys "{ENTER}"
+
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Provinsi").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Provinsi").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Administration_Setup_Provinsi
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Search").Set DataTable.Value("NAMA_PROVINSI",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Provinsi").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Provinsi").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Provinsi").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_Provinsi
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Search").Set DataTable.Value("NAMA_PROVINSI",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Provinsi").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Administration_Setup_Provinsi
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Search").Set DataTable.Value("NAMA_PROVINSI",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Provinsi").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Provinsi").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Provinsi").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Provinsi").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Provinsi").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Provinsi"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Provinsi").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Administration Setup Kecamatan
+Sub Tambah_Setup_Administration_Setup_Kecamatan
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Nama Kecamatan").Set DataTable.Value("NAMA_KECAMATAN",dtlocalsheet)
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	Browser("DPLK").Page("Setup Kecamatan").WebElement("Dropdown Id Kota").Click
+	wait 2
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Search Dropdown").Click
+	wait 2
+	objkey.SendKeys DataTable.Value("KABUPATEN_KOTA",dtlocalsheet)
+	wait 2
+	objkey.SendKeys "{ENTER}"
+	
+	Browser("DPLK").Page("Setup Kecamatan").WebElement("Dropdown Status Register").Click
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Search Dropdown").Click
+	objkey.SendKeys DataTable.Value("STATUS_REGISTER",dtlocalsheet)
+	objkey.SendKeys "{ENTER}"
+
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Administration_Setup_Kecamatan
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Search").Set DataTable.Value("NAMA_KECAMATAN",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kecamatan").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Keterangan Register").Set DataTable.Value("KETERANGAN",dtlocalsheet)
+	
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Administration_Setup_Kecamatan
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Search").Set DataTable.Value("NAMA_KECAMATAN",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kecamatan").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Administration_Setup_Kecamatan
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Search").Set DataTable.Value("NAMA_KECAMATAN",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Kecamatan").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Kecamatan").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Kecamatan").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Kecamatan"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Kecamatan").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+
