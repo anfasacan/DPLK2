@@ -187,17 +187,7 @@ Function DA_LoginDetail()
 	End If
 End Function
 
-Sub Click_Coordinate(xPercent,yPercent)
-	Set devices = CreateObject("Mercury.DeviceReplay")
-	xTotal = Window("SS_Full_Screen").GetROProperty("width")
-	yTotal = Window("SS_Full_Screen").GetROProperty("height")
-	
-	x = round(xPercent/100 * xTotal)
-	y = round(yPercent/100 * yTotal)
-	
-	devices.MouseMove x , y
-	devices.MouseClick x , y , LEFT_MOUSE_BUTTON
-End Sub
+
 
 REM -------- Open Lasted Download File
 Sub OpenLastDownloadFile()
