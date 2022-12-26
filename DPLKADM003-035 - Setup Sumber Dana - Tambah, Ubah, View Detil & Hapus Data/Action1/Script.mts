@@ -3,7 +3,7 @@ Dim dt_Username, preperation
 
 REM -------------- Call Function
 Call spLoadLibrary()
-Call spInitiateData("DPLKLib_Report.xlsx", "DPLKADM003-034 - Setup Jenis Usaha - Tambah, Ubah, View Detil & Hapus Data.xlsx", "DPLKADM003")
+Call spInitiateData("DPLKLib_Report.xlsx", "DPLKADM003-035 - Setup Sumber Dana - Tambah, Ubah, View Detil & Hapus Data.xlsx", "DPLKADM003")
 Call spGetDatatable()
 Call fnRunningIterator()
 Call spReportInitiate()
@@ -18,13 +18,13 @@ Call DA_Login()
 Call AC_GoTo_Menu()
 
 If Iteration = 1 Then
-	Call Tambah_Setup_Administration_Setup_Jenis_Usaha()
+	Call Tambah_Setup_Administration_Setup_Sumber_Dana()
 ElseIf Iteration = 2 Then	
-	Call Ubah_Setup_Administration_Setup_Jenis_Usaha()
+	Call Ubah_Setup_Administration_Setup_Sumber_Dana()
 ElseIf Iteration = 3 Then
-	Call Lihat_Setup_Administration_Setup_Jenis_Usaha()
+	Call Lihat_Setup_Administration_Setup_Sumber_Dana()
 ElseIf Iteration = 4 Then
-	Call Hapus_Setup_Administration_Setup_Jenis_Usaha()
+	Call Hapus_Setup_Administration_Setup_Sumber_Dana()
 End If
 
 Call DA_Logout("0")

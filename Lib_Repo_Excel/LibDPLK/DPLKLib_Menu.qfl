@@ -190,14 +190,29 @@ End Function
 
 
 REM -------- Open Lasted Download File
-Sub OpenLastDownloadFile()
-	Set objkey = CreateObject("WScript.Shell")
-	Call Click_Coordinate(4,94.2)
-	wait 20
-	Call CaptureImageUFTV2(Window("SS_Full_Screen"),"Berikut File Yang Di Unduh ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+Sub OpenLastDownloadFile
+	Set objNet = CreateObject("WScript.NetWork")
+	Set FSO = CreateObject("Scripting.FileSystemObject")
+	Set objShell = CreateObject("WScript.Shell")
+	Set Folder = FSO.GetFolder("C:\Users\" & objNet.UserName & "\Downloads\")
+	
+	LatestModifiedFileDate = #1/1/0001#
+	For Each File In Folder.Files
+	    If  File.DateLastModified > LatestModifiedFileDate Then
+	        LatestModilfiedFile= File.Name
+	        LatestModifiedFileDate = File.DateLastModified
+	    End If
+	Next
+	
+	File_Path = "C:\Users\" & objNet.UserName & "\Downloads\" & LatestModilfiedFile
+	SystemUtil.Run (File_Path)
+	wait 10
 	wait 2
-	Call Click_Coordinate(50,50)
-	objkey.SendKeys ("%{F4}")
+	Call CaptureImageUFTV2(Window("SS_Full_Screen"),"Berikut File Yang Digunakan", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	
+
+	
 End Sub
 
 REM -------- Open Last Download File Without Closing The Browser
