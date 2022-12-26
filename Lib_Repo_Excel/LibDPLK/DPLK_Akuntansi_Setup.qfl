@@ -902,3 +902,483 @@ Sub Hapus_Setup_Akuntansi_Setup_Format_Laporan_Neraca
 		Browser("DPLK").Page("Setup Format Laporan Neraca").WebButton("Btn X Notifikasi").Click
 	End If
 End Sub
+
+REM ==== Akuntansi Setup Format Laporan Perhitungan Hasil Usaha
+Sub Tambah_Setup_Akuntansi_Setup_Format_Laporan_Perhitungan_Hasil_Usaha
+	Set devices = CreateObject("Mercury.DeviceReplay")
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field tahun").Set DataTable.Value("TAHUN",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebNumber("Field level1").Set DataTable.Value("LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebNumber("Field level2").Set DataTable.Value("LEVEL2",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebNumber("Field level3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebNumber("Field level4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Nama Level 2").Set DataTable.Value("NAMA_LEVEL2",dtlocalsheet)
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Akuntansi_Setup_Format_Laporan_Perhitungan_Hasil_Usaha
+	Set objkey = CreateObject("WScript.Shell")
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Search Level 3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Nama Level 2").Set DataTable.Value("NAMA_LEVEL2",dtlocalsheet)
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Akuntansi_Setup_Format_Laporan_Perhitungan_Hasil_Usaha
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Search Level 3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Akuntansi_Setup_Format_Laporan_Perhitungan_Hasil_Usaha
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Search Level 3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perhitungan Hasil Usaha").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Akuntansi Setup Format Laporan Aruskas
+Sub Tambah_Setup_Akuntansi_Setup_Format_Laporan_Aruskas
+	Set devices = CreateObject("Mercury.DeviceReplay")
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field tahun").Set DataTable.Value("TAHUN",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebNumber("Field level1").Set DataTable.Value("LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebNumber("Field level2").Set DataTable.Value("LEVEL2",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebNumber("Field level3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebNumber("Field level4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Akuntansi_Setup_Format_Laporan_Aruskas
+	Set objkey = CreateObject("WScript.Shell")
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Search Level 4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Nama Level 2").Set DataTable.Value("NAMA_LEVEL2",dtlocalsheet)
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Akuntansi_Setup_Format_Laporan_Aruskas
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Search Level 4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Akuntansi_Setup_Format_Laporan_Aruskas
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Search Level 4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aruskas").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aruskas"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aruskas").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Akuntansi Setup Format Laporan Aset Netto
+Sub Tambah_Setup_Akuntansi_Setup_Format_Laporan_Aset_Netto
+	Set devices = CreateObject("Mercury.DeviceReplay")
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field tahun").Set DataTable.Value("TAHUN",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebNumber("Field level1").Set DataTable.Value("LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebNumber("Field level2").Set DataTable.Value("LEVEL2",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebNumber("Field level3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebNumber("Field level4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Nama Level 2").Set DataTable.Value("NAMA_LEVEL2",dtlocalsheet)
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Akuntansi_Setup_Format_Laporan_Aset_Netto
+	Set objkey = CreateObject("WScript.Shell")
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Tambah Detail").Click
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Dropdown Tipe Akun 1").Click
+	wait 2
+	objkey.Sendkeys DataTable.Value("LEVEL4",dtlocalsheet)
+	wait 4
+	objkey.Sendkeys "{ENTER}"
+
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Search Akun 1").Click
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Search Akun 1").Set DataTable.Value("AKUN1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Tabel Index 1").SetTOProperty "innertext", DataTable.Value("AKUN1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Tabel Index 1").Click
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Simpan Detail").Click
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Akuntansi_Setup_Format_Laporan_Aset_Netto
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Akuntansi_Setup_Format_Laporan_Aset_Netto
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+REM ==== Akuntansi Setup Format Laporan Perubahan Aset Netto
+Sub Tambah_Setup_Akuntansi_Setup_Format_Laporan_Perubahan_Aset_Netto
+	Set devices = CreateObject("Mercury.DeviceReplay")
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field tahun").Set DataTable.Value("TAHUN",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebNumber("Field level1").Set DataTable.Value("LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebNumber("Field level2").Set DataTable.Value("LEVEL2",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebNumber("Field level3").Set DataTable.Value("LEVEL3",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebNumber("Field level4").Set DataTable.Value("LEVEL4",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Nama Level 2").Set DataTable.Value("NAMA_LEVEL2",dtlocalsheet)
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Tambah Detail").Click
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Dropdown Tipe Akun 1").Click
+	wait 2
+	objkey.Sendkeys DataTable.Value("TIPE_AKUN1",dtlocalsheet)
+	wait 4
+	objkey.Sendkeys "{ENTER}"
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Dropdown Tipe Akun 2").Click
+	wait 2
+	objkey.Sendkeys DataTable.Value("TIPE_AKUN2",dtlocalsheet)
+	wait 4
+	objkey.Sendkeys "{ENTER}"
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Search Akun 1").Click
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Search Akun 1").Set DataTable.Value("AKUN1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Tabel Akun 1 Index 1").SetTOProperty "innertext", DataTable.Value("AKUN1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Tabel Akun 1 Index 1").Click
+	
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Search Akun 2").Click
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Search Akun 2").Set DataTable.Value("AKUN1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Tabel Akun 2 Index 1").SetTOProperty "innertext", DataTable.Value("AKUN1",dtlocalsheet)
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Tabel Akun 2 Index 1").Click
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Simpan Detail").Click
+
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Akuntansi_Setup_Format_Laporan_Perubahan_Aset_Netto
+	Set objkey = CreateObject("WScript.Shell")
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Btn Hapus Detail Index 1").Click
+
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Akuntansi_Setup_Format_Laporan_Perubahan_Aset_Netto
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Akuntansi_Setup_Format_Laporan_Perubahan_Aset_Netto
+	wait 3
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Search Nama Level 1").Set DataTable.Value("NAMA_LEVEL1",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Format Laporan Perubahan Aset Netto").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
