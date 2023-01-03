@@ -1929,3 +1929,136 @@ Sub Hapus_Setup_Akuntansi_Setup_Opening_Balance
 		Browser("DPLK").Page("Setup Opening Balance").WebButton("Btn X Notifikasi").Click
 	End If
 End Sub
+
+REM ==== Akuntansi Setup Rekening
+Sub Tambah_Setup_Akuntansi_Setup_Rekening
+	Set objkey = CreateObject("WScript.Shell")
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Tambah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Masuk Menu Tambah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Pemilik Rekening").Set DataTable.Value("NAMA_PEMILIK_REKENING",dtlocalsheet)
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field No Rekening").Set DataTable.Value("NO_REKENING",dtlocalsheet)
+
+
+	Browser("DPLK").Page("Setup Rekening").WebElement("Dropdown Produk").Click
+	wait 2
+	objkey.sendkeys DataTable.Value("PRODUK",dtlocalsheet)
+	wait 2
+	objkey.sendkeys "{ENTER}"
+
+	
+
+	Browser("DPLK").Page("Setup Rekening").WebElement("Dropdown Mata Uang").Click
+	wait 2
+	objkey.sendkeys DataTable.Value("MATA_UANG",dtlocalsheet)
+	wait 2
+	objkey.sendkeys "{ENTER}"
+
+	Browser("DPLK").Page("Setup Rekening").WebElement("Field Status Non Aktif").Click
+	wait 2
+	objkey.sendkeys DataTable.Value("STATUS_NON_AKTIF",dtlocalsheet)
+	wait 2
+	objkey.sendkeys "{ENTER}"
+
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Search Kode Bank").Click
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Search Kode Bank").Set DataTable.Value("KODE_BANK",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Rekening").WebElement("Tabel Kode Bank Index 1").SetTOProperty "innertext", DataTable.Value("KODE_BANK",dtlocalsheet)
+	Browser("DPLK").Page("Setup Rekening").WebElement("Tabel Kode Bank Index 1").Click
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Isi Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Simpan").Click
+	wait 7
+	
+	If Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Rekening").WebButton("Btn X Notifikasi").Click
+	End If
+	
+End Sub
+
+Sub Ubah_Setup_Akuntansi_Setup_Rekening
+	Set objkey = CreateObject("WScript.Shell")
+	wait 3
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Search").Set DataTable.Value("NAMA_PEMILIK_REKENING",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Rekening").WebElement("Btn Ubah").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Masuk Menu Ubah Data ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+
+	Browser("DPLK").Page("Setup Rekening").WebElement("Dropdown Produk").Click
+	wait 2
+	objkey.sendkeys DataTable.Value("PRODUK",dtlocalsheet)
+	wait 2
+	objkey.sendkeys "{ENTER}"
+
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Ubah Field Yang Diperlukan Dan Tekan Simpan ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Simpan").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Rekening").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
+
+Sub Lihat_Setup_Akuntansi_Setup_Rekening
+	wait 3
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Search").Set DataTable.Value("NAMA_PEMILIK_REKENING",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Rekening").WebElement("Btn Lihat").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Masuk Menu Lihat Data, Berikut Data Yang Dipilih", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+End Sub
+
+Sub Hapus_Setup_Akuntansi_Setup_Rekening
+	wait 3
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Search").Set DataTable.Value("NAMA_PEMILIK_REKENING",dtlocalsheet)
+	wait 5
+	Browser("DPLK").Page("Setup Rekening").WebElement("Btn Hapus").Click
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Masuk Menu Hapus Data, Dan Tekan Button Ya, yakin! ", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Ya, yakin!").Click
+	Browser("DPLK").Page("Setup Rekening").WebEdit("Field Password Hapus Data").Set DataTable.Value("PASSWORD",dtlocalsheet)
+	wait 2
+	Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),"Masukan Password User, dan Tekan Button Submit", " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+	wait 2
+	Browser("DPLK").Page("Setup Rekening").WebButton("Btn Submit").Click
+	wait 7
+		If Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").Exist(2) Then
+		TextNotif = Browser("DPLK").Page("Setup Rekening").WebElement("Notifikasi").GetROProperty("innertext")
+		TextNotifBerhasil = Instr(ucase(TextNotif),"BERHASIL")
+	End If
+	
+	
+	If TextNotifBerhasil <> 0 Then
+		wait 2
+		Call CaptureImageUFTV2(Browser("DPLK").Page("Setup Rekening"),mid(TextNotif,2,len(TextNotif)-1), " ",  compatibilityMode.Desktop, ReportStatus.Passed)
+		wait 2
+		Browser("DPLK").Page("Setup Rekening").WebButton("Btn X Notifikasi").Click
+	End If
+End Sub
